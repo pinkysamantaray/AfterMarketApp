@@ -1,0 +1,34 @@
+.top-navbar-container{
+    height: 100px;
+}
+.top-navbar{
+    height: 50px;
+    margin:25px;
+}
+nav.top-navbar-container a, nav.top-navbar-container i {
+    color:#ffffff;
+}
+.searchForm {
+    width: 100%;
+    height: 45px;
+    margin: 25px;
+    opacity: 0.3;
+    background-color: #4a4a4a;
+}
+.searchFormInputs {
+    width: 100%;
+}
+div.searchFormInputs span, div.searchFormInputs input {
+    background: transparent;
+    border: transparent;
+    color: #fff;
+}
+.brandContainer {
+    width: 140px;
+    height: 100px;
+    background-color: #e71836;
+    margin-left: -15px;
+}
+.contentContainer{
+    margin:0 auto;
+}

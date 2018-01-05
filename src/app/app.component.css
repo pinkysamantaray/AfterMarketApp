@@ -1,3 +1,11 @@
+@import url('/assets/font-awesome-4.7.0/fonts/DINEngschriftStd.otf');
+@import url('/assets/font-awesome-4.7.0/fonts/DINLight.ttf');
+
+@font-face {
+    font-family: DIN;
+    src: url('/assets/font-awesome-4.7.0/fonts/DINLight.ttf');
+}
+
 .top-navbar-container{
     height: 100px;
 }
@@ -11,7 +19,7 @@ nav.top-navbar-container a, nav.top-navbar-container i {
 .searchForm {
     width: 100%;
     height: 45px;
-    margin: 25px;
+    margin: 12px;
     opacity: 0.3;
     background-color: #4a4a4a;
 }
@@ -31,4 +39,76 @@ div.searchFormInputs span, div.searchFormInputs input {
 }
 .contentContainer{
     margin:0 auto;
+}
+
+.leftNavbar{
+    padding: 0;
+}
+
+.leftNavbarContainer{
+    padding: 0;
+}
+
+.navbarItems{
+    width: 140px;
+    height: 127.1px;
+    opacity: 0.71;
+    background-color: #383838;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35);
+    margin-bottom: 3%;
+    padding-top: 37px;
+    padding-bottom: 34px;
+    padding-right: 37.5px;
+    padding-left: 17px;
+    
+}
+
+.selectedPage{
+    border-bottom: 5px #e71836 solid;
+}
+
+.navbarItems:active{
+    border-bottom: 5px #e71836 solid;
+}
+
+.my-equipments{
+    width: 78px;
+    height: 56px;
+    font-family: DIN;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.my-orders{
+    width: 55px;
+    height: 56px;
+    font-family: DIN;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b;
+}
+
+.my-requisitions{
+    width: 95px;
+    height: 56px;
+    font-family: DIN;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b;
 }

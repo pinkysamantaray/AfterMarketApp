@@ -30,6 +30,76 @@
     </ul>
 </nav>
 
-<div class="contentContainer d-flex justify-content-center">
-    Hello World!!
-</div>
+<!-- <div class="leftNavbar" id="collapseExample">
+  <ul class="nav flex-column" id="exCollapsingNavbar3">
+      <li class="nav-item navbarItems">
+          <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item navbarItems">
+          <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item navbarItems">
+          <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item navbarItems">
+          <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+  </ul>
+</div> -->
+
+
+<!-- <nav class="navbar flex-column navbar-inverse leftNavbar">
+  <div class="container-fluid leftNavbarContainer">
+    <div class="nav navbar-nav">
+      <div class="active navbarItems"><a href="#">My Equipments</a></div>
+      <div class="navbarItems"><a href="#">My Orders</a></div>
+      <div class="navbarItems"><a href="#">My Requisitions</a></div>
+    </div>
+  </div>
+</nav> -->
+
+<!-- <div class="bootstrap-vertical-nav"> -->
+<!--   
+                  <button class="btn btn-primary hidden-md-up" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      <span class="">Menu</span>
+                  </button> -->
+  
+                  <!-- <div class="" id="collapseExample">
+                      <ul class="nav flex-column" id="exCollapsingNavbar3">
+                          <li class="nav-item navbarItems">
+                              <a class="nav-link active" href="#">Active</a>
+                          </li>
+                          <li class="nav-item navbarItems">
+                              <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item navbarItems">
+                              <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item navbarItems">
+                              <a class="nav-link disabled" href="#">Disabled</a>
+                          </li>
+                      </ul>
+                  </div>
+  
+              </div> -->
+
+
+<div class="contentContainer d-flex">
+  <ul class="nav flex-column" id="exCollapsingNavbar3">
+      <a class="nav-link navbarItems active" [class.selectedPage]="this.selectedPage=='myEquipments'" href="#"><li class="nav-item">
+          <span class="my-equipments">MY EQUIPMENT</span>
+      </li>
+    </a>  
+    <a class="nav-link navbarItems" [class.selectedPage]="this.selectedPage=='myOrders'" href="#"><li class="nav-item">
+      <span class="my-orders">MY ORDERS</span>
+         </li>
+    </a>
+  <a class="nav-link navbarItems" [class.selectedPage]="this.selectedPage=='myRequisitions'" href="#"><li class="nav-item">
+    <span class="my-requisitions">MY REQUISITIONS</span>
+  </li>
+  </a>
+</ul>
+
+
+
+  </div>

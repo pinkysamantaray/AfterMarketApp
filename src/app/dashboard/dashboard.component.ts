@@ -111,4 +111,4 @@ export class DashboardComponent implements OnInit {
         //############### HighCharts High map Code ends ##########
     }
  }
-}
+// }

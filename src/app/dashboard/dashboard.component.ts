@@ -6,10 +6,13 @@ import { Component, OnInit, AfterViewInit  } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-
-  constructor() { }
+  
+  constructor() { 
+    
+  }
 
   ngOnInit() {
+    this.selectedPage = 'myEquipments';
   }
 
     ngAfterViewInit() {

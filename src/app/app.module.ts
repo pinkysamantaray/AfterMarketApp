@@ -6,7 +6,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EquipmentDetailsComponent } from './equipment-details/equipment-details.component';
-import { MapviewDirective } from './mapview.directive';
 
 const appRoutes: Routes = [
   { 
@@ -28,8 +27,7 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     DashboardComponent,
-    EquipmentDetailsComponent,
-    MapviewDirective
+    EquipmentDetailsComponent
   ],
   imports: [
     BrowserModule,

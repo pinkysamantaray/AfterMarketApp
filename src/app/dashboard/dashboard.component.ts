@@ -91,7 +91,7 @@ export class DashboardComponent implements OnInit {
               "latitude": 46,
               "longitude": -100 
             }],
-          }
+          },
           "zoomControl": {
             "zoomControlEnabled": false,
             "homeButtonEnabled": false

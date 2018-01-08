@@ -1,7 +1,7 @@
 <nav class="navbar navbar-toggleable-md top-navbar-container row">
     <div class="brandContainer col">   
-        <a class="navbar-brand" href="#">
-        <img src="" width="30" height="30" class="d-inline-block align-top rounded" alt="">
+        <a class="navbar-brand" href="#" class="headerIcon">
+        <img src="/assets/images/page-1@3x.png" width="30" height="30" class="d-inline-block align-top rounded headerIconImage" alt="">
         </a>
     </div>
     
@@ -90,7 +90,7 @@
           <span class="my-equipments" [class.selectedItem]="this.selectedPage=='myEquipments'">MY EQUIPMENT</span>
       </li>
     </a>  
-    <a class="nav-link navbarItems" [class.selectedPage]="this.selectedPage=='myOrders'" href="#"><li class="nav-item">
+    <a class="nav-link navbarItems" [class.selectedPage]="this.selectedPage=='myOrders'" href="/equipmentDetails"><li class="nav-item">
       <span class="my-orders" [class.selectedItem]="this.selectedPage=='myOrders'">MY ORDERS</span>
          </li>
     </a>
@@ -100,6 +100,6 @@
   </a>
 </ul>
 
-
+<router-outlet></router-outlet>
 
   </div>

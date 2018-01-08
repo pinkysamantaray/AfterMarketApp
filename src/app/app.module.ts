@@ -9,12 +9,16 @@ import { EquipmentDetailsComponent } from './equipment-details/equipment-details
 import { MapviewDirective } from './mapview.directive';
 
 const appRoutes: Routes = [
-  { path: 'equipmentDetails', component: EquipmentDetailsComponent },
+  { 
+    path: 'equipmentDetails', 
+    component: EquipmentDetailsComponent 
+  },
   {
     path: 'home',
     component: DashboardComponent
   },
-  { path: '',
+  { 
+    path: '',
     redirectTo: '/home',
     pathMatch: 'full'
   }

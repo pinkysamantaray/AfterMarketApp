@@ -71,6 +71,10 @@ div.searchFormInputs span, div.searchFormInputs input {
     border-bottom: 5px #e71836 solid;
 }
 
+.selectedItem{
+    color: #ffffff !important;
+}
+
 .my-equipments{
     width: 78px;
     height: 56px;
@@ -82,7 +86,7 @@ div.searchFormInputs span, div.searchFormInputs input {
     line-height: 1.27;
     letter-spacing: normal;
     text-align: left;
-    color: #ffffff;
+    color: #9b9b9b;
 }
 
 .my-orders{

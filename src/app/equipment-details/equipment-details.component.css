@@ -1,0 +1,203 @@
+@font-face {
+    font-family: DINEngsch;
+    src: url('/assets/font-awesome-4.7.0/fonts/DINEngschriftStd.otf');
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('/assets/font-awesome-4.7.0/fonts/Montserrat-SemiBold.otf');
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url('/assets/font-awesome-4.7.0/fonts/Montserrat-Light.otf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('/assets/font-awesome-4.7.0/fonts/Montserrat-Regular.otf');
+}
+
+.equipmentName{
+    width: 397px;
+    height: 52px;
+    font-family: DINEngsch;
+    font-size: 43px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.headerIcon{
+    vertical-align: sub;
+}
+
+.headerChevron{
+    margin-left: 1%;
+    margin-right: 1%;
+    vertical-align: text-top;
+}
+
+.equipmentLocationDetails{
+    margin-top: 1%;
+}
+
+.equipmentLocation{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.locationIcon{
+    margin-left: 3%;
+    padding-bottom: 1.5%;
+}
+
+.searchBoxContainer{
+    margin: 1%;
+}
+
+.searchForm{
+    padding: 0;
+}
+
+.searchBoxInput{
+    opacity: 0.3;
+    background-color: #4a4a4a;
+    border: none;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b;
+    width: 18em;
+}
+
+.searchIcon{
+    border-radius: 0;
+    opacity: 0.3;
+    background-color: #4a4a4a;
+    border: none;
+}
+
+.detailsLabel{
+    font-family: Montserrat-SemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-right: 1%;
+}
+
+.detailsValue{
+    padding: 0;
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.detailsContainer{
+    padding: 0;
+}
+
+.detailsMainContainer{
+    padding: 1%;
+}
+
+.tableRowDetails{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.tableRowDealerSite{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e71836;
+}
+
+.tableRowDealerAddress{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.tableRowDealerName{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.renewButton{
+    background-color: #4a4a4a;
+    border-radius: 0;
+    width: 100%;
+}
+
+.renewText{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.tableRow{
+    border: solid 1.5px #383838;
+}
+
+.tableDetails{
+    border: solid 1.5px #383838;
+    width: 50%;
+}

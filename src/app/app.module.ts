@@ -6,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EquipmentDetailsComponent } from './equipment-details/equipment-details.component';
+import { MapviewDirective } from './mapview.directive';
 
 const appRoutes: Routes = [
   { path: 'equipmentDetails', component: EquipmentDetailsComponent },
@@ -19,12 +20,12 @@ const appRoutes: Routes = [
   }
 ];
 
-
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    EquipmentDetailsComponent
+    EquipmentDetailsComponent,
+    MapviewDirective
   ],
   imports: [
     BrowserModule,

@@ -2,6 +2,8 @@ import { Component, OnInit, AfterViewInit  } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import {} from '@types/googlemaps';
 
+declare let google:any 
+
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',

@@ -1,5 +1,6 @@
 import { Component, OnInit, AfterViewInit  } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import {} from '@types/googlemaps';
 
 @Component({
   selector: 'app-dashboard',

@@ -6,6 +6,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EquipmentDetailsComponent } from './equipment-details/equipment-details.component';
+import {} from '@types/googlemaps';
 
 const appRoutes: Routes = [
   { 

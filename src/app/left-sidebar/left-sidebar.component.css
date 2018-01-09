@@ -1,0 +1,72 @@
+.leftNavbar{
+    padding: 0;
+}
+
+.leftNavbarContainer{
+    padding: 0;
+}
+
+.navbarItems{
+    width: 80%;
+    height: 127.1px;
+    opacity: 0.71;
+    background-color: #383838;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35);
+    margin-bottom: 3%;
+    padding: 15%;
+    
+}
+
+.selectedPage{
+    border-bottom: 5px #e71836 solid;
+}
+
+.navbarItems:active{
+    border-bottom: 5px #e71836 solid;
+}
+
+.selectedItem{
+    color: #ffffff !important;
+}
+
+.my-equipments{
+    width: 78px;
+    height: 56px;
+    font-family: DIN;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b;
+}
+
+.my-orders{
+    width: 55px;
+    height: 56px;
+    font-family: DIN;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b;
+}
+
+.my-requisitions{
+    width: 95px;
+    height: 56px;
+    font-family: DIN;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b;
+}

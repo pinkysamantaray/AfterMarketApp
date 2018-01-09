@@ -12,6 +12,8 @@ declare let google:any
 export class DashboardComponent implements OnInit {
   results: string[];
   selectedPage: string;
+  public paths : any[];
+  public path : any;
   constructor(private http: HttpClient) { 
     
   }
@@ -44,23 +46,49 @@ export class DashboardComponent implements OnInit {
           ['Louisiana', 65],
           ['Colorado', 80]
         ]);
-
+        data.addColumn({
+            type: 'string',
+            role: 'tooltip',
+            'p': {'html': true}//added html version
+        });
         var options = {
-            colorAxis: {minValue: 0,  colors: ['#FFF', '#4374E0']},
-            backgroundColor: '#00FFFFFF',
-            defaultColor: '#f5f5f5',
+            colorAxis: {minValue: 0,  colors: ['#181818', '#e71836']},
+            defaultColor: '#181818',
+            displayMode: 'markers',//'regions',
             resolution: 'provinces',
             region: 'US',
             legend: 'none',
-            displayMode: 'markers',
             magnifyingGlass: {enable: true, zoomFactor: 100},
             regionClick : function(){
                 alert("Hello World");
-            }
+            },
+            backgroundColor: {
+                fill: '#181818',
+                fillOpacity: 0.0,
+                stroke: '#ffffff',
+                strokeWidth: 0
+            },
+            datalessRegionColor :'#3e3e3e',
+            regionColor: '#181818',
+            tooltip: {isHtml: true}
         };
 
         var chart = new google.visualization.GeoChart(document.getElementById('chartdiv'));
         chart.draw(data, options);
+         
+        setTimeout(function(){
+            var rects = document.getElementsByTagName('rect');
+            //rects[1].style["fill"] = '';
+            var paths = document.getElementsByTagName('path');  
+            for (var path in paths) // for acts as a foreach  
+            {  
+                paths[path].style["strokeWidth"] = '1'; 
+                paths[path].style["stroke"] = '#383838 !important'; 
+                paths[path].style["fill"] = '#1e1e1e';
+            } 
+        }, 100);
+        
+      }
         //############### Google Chart Code ends ###################
         
         //############### amCharts Code starts #####################
@@ -295,6 +323,6 @@ export class DashboardComponent implements OnInit {
             });
             */
         //############### HighCharts High map Code ends ##########
-    }
+    
  }
 }

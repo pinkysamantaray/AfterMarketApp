@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EquipmentDetailsComponent } from './equipment-details/equipment-details.component';
 import {} from '@types/googlemaps';
+import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 
 const appRoutes: Routes = [
   { 
@@ -28,7 +29,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     DashboardComponent,
-    EquipmentDetailsComponent
+    EquipmentDetailsComponent,
+    LeftSidebarComponent
   ],
   imports: [
     BrowserModule,

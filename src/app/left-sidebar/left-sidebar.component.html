@@ -1,0 +1,14 @@
+<ul class="nav flex-column" id="exCollapsingNavbar3">
+      <a class="nav-link navbarItems active" [class.selectedPage]="this.selectedPage=='myEquipments'" href="/home"><li class="nav-item">
+          <span class="my-equipments" [class.selectedItem]="this.selectedPage=='myEquipments'">MY EQUIPMENT</span>
+      </li>
+    </a>  
+    <a class="nav-link navbarItems" [class.selectedPage]="this.selectedPage=='myOrders'" href="/equipmentDetails"><li class="nav-item">
+      <span class="my-orders" [class.selectedItem]="this.selectedPage=='myOrders'">MY ORDERS</span>
+         </li>
+    </a>
+  <a class="nav-link navbarItems" [class.selectedPage]="this.selectedPage=='myRequisitions'" href="/home"><li class="nav-item">
+    <span class="my-requisitions" [class.selectedItem]="this.selectedPage=='myRequisitions'">MY REQUISITIONS</span>
+  </li>
+  </a>
+</ul>

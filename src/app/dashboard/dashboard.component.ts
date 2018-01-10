@@ -70,15 +70,18 @@ export class DashboardComponent implements OnInit {
             },
             datalessRegionColor :'#3e3e3e',
             regionColor: '#181818',
-            tooltip: {isHtml: true}
+            tooltip: {isHtml: true},
+            enableRegionInteractivity: true
         };
 
         var chart = new google.visualization.GeoChart(document.getElementById('chartdiv'));
         chart.draw(data, options);
          
+        google.visualization.events.addListener(chart, 'click', function(){
+            debugger;
+        });
         setTimeout(function(){
             var rects = document.getElementsByTagName('rect');
-            //rects[1].style["fill"] = '';
             var paths = document.getElementsByTagName('path');  
             for (var path in paths) // for acts as a foreach  
             {  

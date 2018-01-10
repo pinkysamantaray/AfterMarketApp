@@ -32,7 +32,7 @@ div.rightSidebar ul {
 }
 div.rightSidebar li {
     text-indent: 20px;
-    line-height: 55px;
+    line-height: 65px;
     height: 65px;
     background-color: #ffffff;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
@@ -41,17 +41,26 @@ div.rightSidebar li {
 
 .rightSidebar {
     background-color: transparent;
+    margin-left: -100px;
 }
 
 .itemHeader{
     //font-family: Montserrat;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.7;
+    //line-height: 1.7;
     letter-spacing: normal;
     text-align: left;
     color: #4a4a4a;
 }
-
+a.itemHeader {
+    text-decoration: none;
+    cursor: pointer;
+}
+.itemCaret{
+    float: right;
+    line-height: 65px;
+    margin-right: 15px;
+}

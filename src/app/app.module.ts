@@ -8,6 +8,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { EquipmentDetailsComponent } from './equipment-details/equipment-details.component';
 import {} from '@types/googlemaps';
 import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
+import { TabPanelComponent } from './tab-panel/tab-panel.component';
 
 const appRoutes: Routes = [
   { 
@@ -30,7 +31,8 @@ const appRoutes: Routes = [
     AppComponent,
     DashboardComponent,
     EquipmentDetailsComponent,
-    LeftSidebarComponent
+    LeftSidebarComponent,
+    TabPanelComponent
   ],
   imports: [
     BrowserModule,

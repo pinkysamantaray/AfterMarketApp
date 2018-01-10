@@ -19,10 +19,10 @@
 }
 
 .equipmentName{
-    width: 397px;
-    height: 52px;
+    /* width: 397px;
+    height: 52px; */
     font-family: DINEngsch;
-    font-size: 43px;
+    font-size: 33px;
     font-weight: 500;
     font-style: normal;
     font-stretch: condensed;
@@ -200,4 +200,8 @@
 .tableDetails{
     border: solid 1.5px #383838;
     width: 50%;
+}
+
+.equipmentEventDetailsContainer{
+    background-color: #f4f4f4;
 }

@@ -7,7 +7,11 @@ body {
 }
 
 body {
-    background-image: radial-gradient(circle at 37% 60%, #3e3e3e, #000000);
+    background: radial-gradient(circle at 37% 60%, #3e3e3e, #000000) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: #fff !important;
 }
 

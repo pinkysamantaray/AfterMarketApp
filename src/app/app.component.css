@@ -62,3 +62,6 @@ div.searchFormInputs span, div.searchFormInputs input {
 .contentContainer{
     margin:0 auto;
 }
+.userImage{
+    margin-top: -10px;
+}

@@ -77,12 +77,13 @@ export class DashboardComponent implements OnInit {
         var chart = new google.visualization.GeoChart(document.getElementById('chartdiv'));
         chart.draw(data, options);
          
-        google.visualization.events.addListener(chart, 'click', function(){
-            debugger;
-        });
+        //google.visualization.events.addListener(chart, 'click', function(){
+            
+        //});
         setTimeout(function(){
             var rects = document.getElementsByTagName('rect');
             var paths = document.getElementsByTagName('path');  
+            
             for (var path in paths) // for acts as a foreach  
             {  
                 paths[path].style["strokeWidth"] = '1'; 
@@ -90,6 +91,16 @@ export class DashboardComponent implements OnInit {
                 paths[path].style["fill"] = '#1e1e1e';
             } 
         }, 100);
+          
+        setTimeout(function(){
+            var markers = document.getElementsByTagName('circle');
+            for (var marker=0; marker< markers.length; marker++) // for acts as a foreach  
+            {  
+                markers[marker].addEventListener("click", function(this){
+                    alert("");
+                });
+            } 
+        },1000);
         
       }
         //############### Google Chart Code ends ###################

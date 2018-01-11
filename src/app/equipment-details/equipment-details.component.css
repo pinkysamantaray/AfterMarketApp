@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: Montserrat-Bold;
+    src: url('/assets/font-awesome-4.7.0/fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
     font-family: Montserrat-Light;
     src: url('/assets/font-awesome-4.7.0/fonts/Montserrat-Light.otf');
 }
@@ -16,6 +21,11 @@
 @font-face {
     font-family: Montserrat;
     src: url('/assets/font-awesome-4.7.0/fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('/assets/font-awesome-4.7.0/fonts/Montserrat-Medium.otf');
 }
 
 .equipmentName{
@@ -204,4 +214,85 @@
 
 .equipmentEventDetailsContainer{
     background-color: #f4f4f4;
+}
+
+.eventHeading{
+    margin-top: 2.2em;
+    font-family: DIN;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.08;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.upcomingTimeHeading{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.upcomingEventCardClass{
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 2%;
+}
+
+.scheduleDetailClass{
+    display: inline-block;
+    border-left: solid 2px #f4f4f4;
+    border-right: solid 2px #f4f4f4;
+}
+
+.scheduleDetails{
+    padding: 0;
+}
+
+.detailsHeading{
+    font-family: Montserrat-Medium;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.detailsDueDate{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b;
+}
+
+.scheduleServiceButton{
+    margin-top: 5%;
+    border-radius: 0;
+    background-color: #4a4a4a;
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 5% 11% 5% 11%;
 }

@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: Montserrat-Bold;
+    src: url('/assets/font-awesome-4.7.0/fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
     font-family: Montserrat-Light;
     src: url('/assets/font-awesome-4.7.0/fonts/Montserrat-Light.otf');
 }
@@ -18,11 +23,16 @@
     src: url('/assets/font-awesome-4.7.0/fonts/Montserrat-Regular.otf');
 }
 
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('/assets/font-awesome-4.7.0/fonts/Montserrat-Medium.otf');
+}
+
 .equipmentName{
-    width: 397px;
-    height: 52px;
+    /* width: 397px;
+    height: 52px; */
     font-family: DINEngsch;
-    font-size: 43px;
+    font-size: 33px;
     font-weight: 500;
     font-style: normal;
     font-stretch: condensed;
@@ -200,4 +210,210 @@
 .tableDetails{
     border: solid 1.5px #383838;
     width: 50%;
+}
+
+.equipmentEventDetailsContainer{
+    background-color: #f4f4f4;
+}
+
+.eventHeading{
+    margin-top: 2.2em;
+    font-family: DIN;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.08;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.upcomingTimeHeading{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.upcomingEventCardClass{
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 2%;
+}
+
+.scheduleDetailClass{
+    display: inline-block;
+    border-left: solid 2px #f4f4f4;
+    border-right: solid 2px #f4f4f4;
+}
+
+.scheduleDetails{
+    padding: 0;
+}
+
+.detailsHeading{
+    font-family: Montserrat-Medium;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.detailsDueDate{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b;
+}
+
+.scheduleServiceButton{
+    margin-top: 5%;
+    border-radius: 0;
+    background-color: #4a4a4a;
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 5% 11% 5% 11%;
+}
+
+.recommendedHeading{
+    font-family: DIN;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1.08;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.productImageClass{
+    float:left;
+}
+
+.recommendedProductCard{
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    padding: 3%;
+    margin-bottom: 3%;
+}
+
+.recommendedProductContent{
+    background-color: #f4f4f4;
+    padding-top: 4%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 4%;
+}
+
+.productDetails{
+    display: inline-block;
+    padding: 0;
+}
+
+.productName{
+    font-family: Montserrat-Medium;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+    margin: 4%;
+    padding: 0;
+}
+
+.productPrice{
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+    margin: 4%;
+    padding: 0;
+}
+
+.skill{
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+    margin: 4%;
+    padding: 0;
+}
+
+.purchaseButton{
+    background-color: #4a4a4a;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 4%;
+    border-radius: 0;
+}
+
+.recommendedMaintenanceRoutineCard{
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    padding: 3%;
+    margin-bottom: 3%;
+}
+
+.recommendedMaintenanceRoutineContent{
+    background-color: #f4f4f4;
+}
+
+.recommendedRoutineLabel{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+    display: inline-block;
+    padding: 0;
+    margin: 3%;
 }

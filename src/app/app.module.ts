@@ -40,10 +40,10 @@ const appRoutes: Routes = [
     HttpClientModule,
     MatCardModule,
     RouterModule.forRoot(
-      appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
+      appRoutes//,  { enableTracing: true } // <-- debugging purposes only
     )
   ],
+  exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })
